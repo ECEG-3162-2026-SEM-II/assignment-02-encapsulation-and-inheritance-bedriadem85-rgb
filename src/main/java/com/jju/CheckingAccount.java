@@ -1,16 +1,20 @@
 package com.jju;
 
-public class CheckingAccount extends BankAccount {
-    private static final double TRANSACTION_FEE = 1.50;
+public class SavingsAccount extends BankAccount {
 
-  // 1. Student Task: Create constructor and call the superclass constructor and ensure balance is valid
-    
+    private double interestRate;
 
-    @Override
-    public void withdraw(double amount) {
-       // 2. Student Task: Implement withdraw logic here
+    // Constructor
+    public SavingsAccount(String accountHolder, double initialBalance, double interestRate) {
+        super(accountHolder, initialBalance); // must be first
+        this.interestRate = interestRate;
     }
 
-    
+    // Apply interest
+    public void applyInterest() {
+        double interest = balance * interestRate;
+        this.deposit(interest); // reuse deposit logic
+    }
 }
+    
 
