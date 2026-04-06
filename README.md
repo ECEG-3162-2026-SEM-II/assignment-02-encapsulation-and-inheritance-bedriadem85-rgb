@@ -83,7 +83,8 @@ A daily-use account that charges a fee for every withdrawal.
 | **Code Quality** (Use of `super`, no negative balances) | 20% |
 
 ## 🔍 Troubleshooting Your Grade
-If your score is **0/100**, check the following:
+If your score is **0/100**, check the
+ following:
 
 1. **❌ Build Failed**: Your code has a syntax error (missing semicolon, bracket, etc.). Check the "Build and Test" logs in the Actions tab.
 2. **❌ Encapsulation**: You likely made the `balance` field `public`. It must be `protected`.
