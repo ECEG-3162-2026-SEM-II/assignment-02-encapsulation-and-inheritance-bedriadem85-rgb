@@ -1,13 +1,13 @@
 package com.jju;
 
-import static org.junit.jupiter.api.Assertions.*;
+import  static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 
 public class BankAccountTest {
 
     @Test
-    @DisplayName("BankAccount: Basic Deposit")
+    @DisplaName("BankAccount: Basic Deposit")
     public void testBaseDeposit() {
         BankAccount account = new BankAccount("User", 100.0);
         account.deposit(50.0);

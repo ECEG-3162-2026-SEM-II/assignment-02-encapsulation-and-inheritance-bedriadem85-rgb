@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23333902&assignment_repo_type=AssignmentRepo)
 # Assignment 02: Encapsulation and Inheritance (Banking System)
 
 ## 🎯 Objectives
@@ -82,7 +83,8 @@ A daily-use account that charges a fee for every withdrawal.
 | **Code Quality** (Use of `super`, no negative balances) | 20% |
 
 ## 🔍 Troubleshooting Your Grade
-If your score is **0/100**, check the following:
+If your score is **0/100**, check the
+ following:
 
 1. **❌ Build Failed**: Your code has a syntax error (missing semicolon, bracket, etc.). Check the "Build and Test" logs in the Actions tab.
 2. **❌ Encapsulation**: You likely made the `balance` field `public`. It must be `protected`.
